@@ -49,10 +49,10 @@ export function ContactoSection() {
     <section id="contacto" style={{ padding: '4rem 0' }}>
       <Container size="md">
         {/* Encabezado */}
-        <Title order={2} align="center" mb="md">
+        <Title order={2}  mb="md">
           ¿Listo para Empezar?
         </Title>
-        <Text align="center" mb="xl" color="dimmed">
+        <Text mb="xl" color="dimmed">
           Llena este formulario y te dirigiremos a WhatsApp para finalizar tu solicitud.
         </Text>
 
