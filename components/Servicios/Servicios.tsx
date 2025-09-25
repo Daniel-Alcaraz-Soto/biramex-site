@@ -100,7 +100,7 @@ export function ServiciosSection({ tipo }: ServiciosSectionProps) {
       <Container size="lg">
         <Grid>
           {/* Imagen animada */}
-          <Grid.Col span={12} md={6}>
+          <Grid.Col span={12} >
             <motion.div
               ref={imagenRef}
               initial={{ opacity: 0, x: 60, filter: 'blur(12px)' }}
@@ -132,7 +132,7 @@ export function ServiciosSection({ tipo }: ServiciosSectionProps) {
           </Grid.Col>
 
           {/* Contenido */}
-          <Grid.Col span={12} md={6}>
+          <Grid.Col span={12}>
             <Title order={2} size="2.25rem" fw={700} mb="xl" c="#000">
               {tipo === 'terreno'
                 ? 'Todo lo que necesitas para invertir en tierra'
@@ -154,7 +154,7 @@ export function ServiciosSection({ tipo }: ServiciosSectionProps) {
                 {data.map((item, idx) => {
                   const IconComp = item.icon;
                   return (
-                    <Grid.Col key={item.title} span={12} sm={6} md={12}>
+                    <Grid.Col key={item.title} span={12}>
                       <motion.div
                         variants={itemVariants}
                         whileHover={{
