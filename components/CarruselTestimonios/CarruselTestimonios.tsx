@@ -22,13 +22,13 @@ export function GaleriaTestimoniosSlider() {
         withIndicators
         slideSize="100%"
         height="auto"
-        loop
         align="center"
         styles={{
           indicator: {
             backgroundColor: '#fff',
           },
         }}
+        emblaOptions={{ loop: true }} // 👈 loop corregido
       >
         <Carousel.Slide>
           <div className={classes.gallery}>
