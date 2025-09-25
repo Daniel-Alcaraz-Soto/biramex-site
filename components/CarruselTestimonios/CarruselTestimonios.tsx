@@ -22,7 +22,6 @@ export function GaleriaTestimoniosSlider() {
         withIndicators
         slideSize="100%"
         height="auto"
-        align="center"
         styles={{
           indicator: {
             backgroundColor: '#fff',
