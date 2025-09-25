@@ -57,9 +57,9 @@ export function TestimoniosSection() {
                 radius="md"
                 style={{ borderColor: neutralBorder }}
               >
-                <Group align="flex-start" spacing="md">
+                <Group align="flex-start" >
                   {/* Rango de 5 estrellas */}
-                  <Group spacing="xs">
+                  <Group gap="md">
                     {[...Array(5)].map((_, i) => (
                       <IconStar key={i} size={20} color={starColor} />
                     ))}
