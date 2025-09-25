@@ -58,7 +58,7 @@ export function ContactoSection() {
 
         {/* Formulario que redirige a WhatsApp */}
         <form onSubmit={handleSubmit}>
-          <Stack spacing="md">
+          <Stack>
             <TextInput
               label="Nombre completo"
               placeholder="Tu nombre"
@@ -113,7 +113,7 @@ export function ContactoSection() {
         <Divider my="xl" />
 
         {/* Información de contacto fija */}
-        <Flex direction="column" align="flex-start" spacing="sm">
+        <Flex direction="column" align="flex-start" >
           <Text size="sm">
             <strong>Dirección:</strong> Blvr. Luis Donaldo Colosio No. 2680, Col. Kennedy, Nogales, SON
           </Text>
