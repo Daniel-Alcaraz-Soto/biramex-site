@@ -1,0 +1,36 @@
+.wrapper {
+  position: relative;
+  padding: 4rem 0;
+  background-color: #000;
+}
+
+.slide {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.frase {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.nombre {
+  color: #ccc;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}

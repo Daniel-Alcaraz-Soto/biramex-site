@@ -1,0 +1,24 @@
+
+
+  .section {
+    border-bottom: 1px solid #f0f0f0;
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    padding-bottom: var(--mantine-spacing-md);
+  }
+  
+  .label {
+    text-transform: uppercase;
+    font-size: var(--mantine-font-size-xs);
+    font-weight: 700;
+    color: #888888;
+  }
+  
+  .like {
+    color: #FF0300; /* rojo Biramex */
+    width: 20px;
+    height: 20px;
+  }
+  .title{
+    font-size: 75px;
+  }

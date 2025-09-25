@@ -1,0 +1,99 @@
+.root {
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .root {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    min-height: 650px;
+  }
+}
+
+.title {
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.15;
+  max-width: 600px;
+  font-size: 62px;
+
+  @media (max-width: mantine-breakpoint-md) {
+    max-width: 100%;
+    font-size: 36px;
+    line-height: 1.25;
+  }
+}
+
+.description {
+  color: #333333;
+  font-size: 28px;
+  line-height: 1.6;
+  max-width: 600px;
+
+  @media (max-width: mantine-breakpoint-md) {
+    max-width: 100%;
+  }
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: mantine-breakpoint-md) {
+    max-height: unset;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image img {
+    min-height: 400px;
+    max-height: 400px;
+    object-fit: contain;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.control {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  transition: transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+
+  @media (max-width: mantine-breakpoint-md) {
+    width: 100%;
+  }
+}
+
+.control:hover {
+  transform: translateY(-2px);
+}
+.ctaDesktop {
+  display: flex; /* ✅ Cambiamos block por flex */
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.ctaMobile {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .ctaDesktop {
+    display: block;
+  }
+
+  .ctaMobile {
+    display: none;
+  }
+}

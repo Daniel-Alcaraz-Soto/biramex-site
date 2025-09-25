@@ -1,0 +1,43 @@
+.hero {
+  position: relative;
+  background-image: url('/nosotros/hero.png'); /* puedes cambiar esta imagen */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.subtitle {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ddd;
+  font-size: 1.25rem;
+}
+
+.meta {
+  font-weight: 600;
+  color: #ccc;
+}

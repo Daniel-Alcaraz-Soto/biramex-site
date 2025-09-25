@@ -1,0 +1,20 @@
+.wrapper {
+    padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-xl);
+  }
+  
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: var(--mantine-spacing-md);
+    color: #000000; /* azul oscuro Biramex */
+  }
+  .description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4B4B4B; /* gris oscuro suave para contraste */
+    max-width: 600px;
+    margin-bottom: var(--mantine-spacing-md);
+  }

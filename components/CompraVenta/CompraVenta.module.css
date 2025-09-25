@@ -1,0 +1,36 @@
+.wrapper {
+    background-color: #ffff;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #333333;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    padding: 2rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+    transform: translateY(-6px);
+  }
+  

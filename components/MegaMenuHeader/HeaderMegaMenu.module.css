@@ -1,0 +1,50 @@
+.header {
+    height: 75px;
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    text-decoration: none;
+    color: #001839; /* Azul oscuro Biramex */
+    font-weight: 600;
+    font-size: var(--mantine-font-size-sm);
+    transition: background-color 0.2s ease;
+  
+    @media (max-width: mantine-breakpoint-sm) {
+      height: 42px;
+      width: 100%;
+    }
+  
+    &:hover {
+      background-color: #f2f4f7;
+    }
+  }
+  
+  .subLink {
+    width: 100%;
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+    border-radius: var(--mantine-radius-md);
+    transition: background-color 0.2s ease;
+  
+    &:hover {
+      background-color: #f2f4f7;
+    }
+  }
+  
+  .dropdownFooter {
+    background-color: #f9f9f9;
+    margin: calc(var(--mantine-spacing-md) * -1);
+    margin-top: var(--mantine-spacing-sm);
+    padding: var(--mantine-spacing-md) calc(var(--mantine-spacing-md) * 2);
+    padding-bottom: var(--mantine-spacing-xl);
+    border-top: 1px solid #e0e0e0;
+  }

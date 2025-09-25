@@ -1,0 +1,24 @@
+.wrapper {
+    padding: 5rem 0;
+    background-color: #ffff;
+  }
+  
+  .banner {
+    text-align: center;
+    background-color: white;
+  }
+  
+  .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
